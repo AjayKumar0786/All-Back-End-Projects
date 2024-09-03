@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/bootstrap.css">
+</head>
+<body>
+    <section>
+
+        <div class="main-form-container">
+          <div id="form_section" class="form-container">
+            <div class="login-form form-wraper ">
+              <div>
+              <form action="/login" method="post">
+                <div class="form-title">
+                    <h2>Login</h2>
+                
+                  </div>
+                  <div class="input-group">
+                    <div class="box">
+                      <span>
+                        <input placeholder="Email" class="myInput" type="text" name="email"/>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                    <div class="box">
+                      <span>
+                        <input placeholder="Password" class="myInput" type="password" name="password" />
+                      </span>
+                    </div>
+                  </div>
+                  <div class="forget-password">
+                    <a href="">FORGOT PASSWORD</a>
+                  </div>
+                  <div class="action-button">
+                    <button>Login</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="signUp-form form-wraper">
+           <form action="/signup" method="post">
+            <div>
+                <div class="form-title">
+                  <h2>Sign Up</h2>
+                </div>
+                <div class="input-group">
+                  <div class="box">
+                    <span>
+                      <input placeholder="Full Name" class="myInput" type="text" name="fullname" />
+                    </span>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="box">
+                    <span>
+                      <input placeholder="Email" class="myInput" type="text" name="email" />
+                    </span>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="box">
+                    <span>
+                      <input placeholder="Mobile No." class="myInput" type="text" name="mobile" />
+                    </span>
+                  </div>
+                </div>
+                <div style="margin-bottom: 0px;" class="input-group">
+                  <div class="box">
+                    <span>
+                      <input placeholder="Password" class="myInput" type="password" name="password" />
+                    </span>
+                  </div>
+                </div>
+                <div class="action-button">
+                  <button>Sign Up</button>
+                </div>
+              </div>
+           </form>
+            </div>
+          </div>
+          <div id="multiple-btn" class="bg-btn-container">
+            <div class="action-button">
+              <button>Login</button>
+            </div>
+            <div class="action-button">
+              <button>Sign Up</button>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+<script src="./js/index.js"></script>
+</body>
+</html>
